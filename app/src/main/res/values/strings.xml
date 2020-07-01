@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Practica4Equipo2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perimetrocuadro">Perimetro Cuadro</string>
+    <string name="numladospc">Ingrese el valor</string>
+    <string name="clacularpc">Calcular</string>
+    <string name="ladopc">Lado:</string>
+    <string name="nextpc">Next</string>
+    <string name="error_completar">Complete el campo</string>
 </resources>
