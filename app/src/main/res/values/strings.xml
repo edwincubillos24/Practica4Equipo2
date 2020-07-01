@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Practica4Equipo2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="name_fragment">Area del triángulo</string>
+    <string name="triangulo">imagen de triángulo</string>
+    <string name="valor_base">Ingrese el valor de la base:</string>
+    <string name="cantidad_base">base</string>
+    <string name="valor_altura">ingrese el valor de la altura:</string>
+    <string name="cantidad_altura">altura</string>
+    <string name="area">calcular</string>
+    <string name="resultado_area">0</string>
+    <string name="siguiente_interfaz">Siguiente</string>
 </resources>
