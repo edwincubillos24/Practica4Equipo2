@@ -8,10 +8,6 @@ import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_perimetro__circulo.*
 
 
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-
 class Perimetro_CirculoFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -24,11 +20,14 @@ class Perimetro_CirculoFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
-        bt_next.setOnClickListener {
-            //Batman llama a superman
-            // findNavController().navigate(R.id.action_BatmanFragment_to_flashFragment)
+        bt_calcular.setOnClickListener {
+            //Accion para calcular
+            val radio = et_radio.text.toString().toDouble()
+            val PI = 3.141516
+            val perimetro = 2 * PI * radio
+            tv_resultado.text = "El perimetro es: " + perimetro.toString()
         }
+
 
     }
 }
