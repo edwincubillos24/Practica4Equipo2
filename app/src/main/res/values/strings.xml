@@ -13,4 +13,12 @@
     <string name="calcularptriangle">Calcular</string>
     <string name="resultadoptriangle" />
     <string name="text_resultptriangle">Resultado:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="perimetrocuadro">Perimetro Cuadro</string>
+    <string name="numladospc">Ingrese el valor</string>
+    <string name="clacularpc">Calcular</string>
+    <string name="ladopc">Lado:</string>
+    <string name="nextpc">Next</string>
+    <string name="error_completar">Complete el campo</string>
 </resources>
