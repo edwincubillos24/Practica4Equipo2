@@ -31,4 +31,11 @@
     <string name="area">calcular</string>
     <string name="resultado_area">0</string>
     <string name="siguiente_interfaz">Siguiente</string>
+
+    <string name="Perimetro_del_Circulo">Perimetro del Circulo</string>
+    <string name="digitar_radio">Ingrese el Radio</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="resultado">Resultado</string>
+    <string name="ir_operacion">Ir a otra operacion</string>
+    <string name="siguiente">Ir a otra operacion</string>
 </resources>

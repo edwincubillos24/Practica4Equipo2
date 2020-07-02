@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,16 +17,25 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/fragment_perimetro__triangle" />
+
     <fragment
         android:id="@+id/details_fragment"
         class="com.example.practica4equipo2.CuadradoFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout="@layout/fragment_cuadrado"/>
+        tools:layout="@layout/fragment_cuadrado" />
+
     <fragment
         android:id="@+id/details_fragment"
         class="com.example.practica4equipo2.AreaTrianguloFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout="@layout/fragment_area_triangulo"/>
+        tools:layout="@layout/fragment_area_triangulo" />
+
+    <fragment
+        android:id="@+id/details_fragment"
+        class="com.example.practica4equipo2.Perimetro_CirculoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_perimetro__circulo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
