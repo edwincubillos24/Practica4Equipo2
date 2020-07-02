@@ -24,4 +24,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/fragment_cuadrado"/>
+    <fragment
+        android:id="@+id/details_fragment"
+        class="com.example.practica4equipo2.AreaTrianguloFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_area_triangulo"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
