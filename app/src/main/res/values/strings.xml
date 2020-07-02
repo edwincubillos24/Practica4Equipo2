@@ -1,6 +1,27 @@
 <resources>
     <string name="app_name">Practica4Equipo2</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prueba_dolph">Funcionara</string>
+    <string name="p_triangle">PERIMETRO TRIANGULO</string>
+    <string name="pdesc_triangle">triangulo_abc</string>
+    <string name="intera_ptriangle">Ingresa el valor de sus lados</string>
+    <string name="ladoaptriangle">Lado a</string>
+    <string name="hint_aptriangle">a</string>
+    <string name="ladobptriangle">Lado b</string>
+    <string name="ladocptriangle">Lado c</string>
+    <string name="calcularptriangle">Calcular</string>
+    <string name="resultadoptriangle" />
+    <string name="text_resultptriangle">Resultado:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="perimetrocuadro">Perimetro Cuadro</string>
+    <string name="numladospc">Ingrese el valor</string>
+    <string name="clacularpc">Calcular</string>
+    <string name="ladopc">Lado:</string>
+    <string name="nextpc">Next</string>
+    <string name="error_completar">Complete el campo</string>
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="name_fragment">Area del triángulo</string>
     <string name="triangulo">imagen de triángulo</string>
     <string name="valor_base">Ingrese el valor de la base:</string>
