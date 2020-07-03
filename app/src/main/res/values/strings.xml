@@ -58,4 +58,9 @@
     <string name="bt_calcular">Calcular</string>
     <string name="ingrese_lado">Ingrese lado</string>
     <string name="resultado">Resultado</string>
+    <string name="Titulo_1">Area del hexagono</string>
+    <string name="Titulo_2">Ingrese el valor del lado</string>
+    <string name="Titulo_3">Calcular</string>
+    <string name="Resultado">Resultado</string>
+
 </resources>
