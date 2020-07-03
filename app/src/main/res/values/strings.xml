@@ -38,4 +38,9 @@
     <string name="resultado">Resultado</string>
     <string name="ir_operacion">Ir a otra operacion</string>
     <string name="siguiente">Ir a otra operacion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="area_circulo_titulo">Área del circulo</string>
+    <string name="radio">Radio:</string>
+    <string name="area_circulo_calcular">Calcular</string>
+    <string name="area_circulo">Área:</string>
 </resources>
