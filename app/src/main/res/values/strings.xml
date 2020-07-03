@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Practica4Equipo2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Titulo_1">Area del hexagono</string>
+    <string name="Titulo_2">Ingrese el valor del lado</string>
+    <string name="Titulo_3">Calcular</string>
+    <string name="Resultado">Resultado</string>
+
 </resources>
