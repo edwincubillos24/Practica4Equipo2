@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Practica4Equipo2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perimetro_hexagono">Perimetro Hexagono</string>
+    <string name="calcular">Calcular Perimetro</string>
+    <string name="hexagono">Hexagono</string>
+    <string name="p_6porl">P = 6 *L</string>
+    <string name="tv_resultado">Resultado</string>
+    <string name="bt_calcular">Calcular</string>
+    <string name="ingrese_lado">Ingrese lado</string>
+    <string name="resultado">Resultado</string>
 </resources>
