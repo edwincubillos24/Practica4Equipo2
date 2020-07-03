@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    tools:context=".Perimetro_TriangleFragment">
+
+    <TextView
+        android:id="@+id/tv_titleptriangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/p_triangle"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_ptriangle"
+        android:layout_width="306dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/pdesc_triangle"
+        android:src="@drawable/triangle_abc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titleptriangle" />
+
+    <TextView
+        android:id="@+id/tv_intptriangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/intera_ptriangle"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_ptriangle" />
+
+    <TextView
+        android:id="@+id/tv_aptriangle"
+        android:layout_width="57dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/ladoaptriangle"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_intptriangle" />
+
+    <EditText
+        android:id="@+id/etn_ladoa"
+        android:layout_width="119dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toEndOf="@+id/tv_aptriangle"
+        app:layout_constraintTop_toBottomOf="@+id/tv_intptriangle" />
+
+    <TextView
+        android:id="@+id/tv_bptriangle"
+        android:layout_width="57dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/ladobptriangle"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_aptriangle" />
+
+    <EditText
+        android:id="@+id/etn_ladob"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toEndOf="@+id/tv_bptriangle"
+        app:layout_constraintTop_toBottomOf="@+id/etn_ladoa" />
+
+    <TextView
+        android:id="@+id/tv_bptriangle2"
+        android:layout_width="57dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/ladocptriangle"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bptriangle" />
+
+    <EditText
+        android:id="@+id/etn_ladoc"
+        android:layout_width="121dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toEndOf="@+id/tv_bptriangle2"
+        app:layout_constraintTop_toBottomOf="@+id/etn_ladob" />
+
+    <Button
+        android:id="@+id/bt_ptriangle"
+        android:layout_width="96dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="325dp"
+        android:background="@color/firebrick"
+        android:text="@string/calcularptriangle"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <TextView
+        android:id="@+id/tv_indicptriangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="112dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/text_resultptriangle"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_resultadoptriangle" />
+
+    <TextView
+        android:id="@+id/tv_resultadoptriangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:layout_marginBottom="112dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/resultadoptriangle"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
