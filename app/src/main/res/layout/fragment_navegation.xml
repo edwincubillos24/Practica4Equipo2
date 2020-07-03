@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".NavegationFragment">
+
+    <TextView
+        android:id="@+id/tv_title_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="@string/titulo_nav"
+        android:textColor="@color/firebrick"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bt_areacirculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/firebrick"
+        android:text="@string/area_circulo_titulo"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bt_perimetrocirculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/firebrick"
+        android:text="@string/Perimetro_del_Circulo"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bt_areatriangulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/firebrick"
+        android:text="@string/area_triangulo"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bt_perimetrotriangulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/firebrick"
+        android:text="@string/p_triangle"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bt_areacuadrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/firebrick"
+        android:text="@string/area_cuadrado"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bt_perimetrocuadrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/firebrick"
+        android:text="@string/perimetrocuadro"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bt_areahexagono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/firebrick"
+        android:text="@string/area_hexagono"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bt_perimetrohexagono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/firebrick"
+        android:text="@string/p_hexagono"
+        android:textColor="@color/white" />
+
+</LinearLayout>

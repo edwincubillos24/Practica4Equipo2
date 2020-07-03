@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navegationFragment">
+
+    <fragment
+        android:id="@+id/areaCirculoFragment"
+        android:name="com.example.practica4equipo2.AreaCirculoFragment"
+        android:label="AreaCirculoFragment" />
+    <fragment
+        android:id="@+id/cuadradoFragment"
+        android:name="com.example.practica4equipo2.CuadradoFragment"
+        android:label="fragment_cuadrado"
+        tools:layout="@layout/fragment_cuadrado" />
+    <fragment
+        android:id="@+id/areaTrianguloFragment"
+        android:name="com.example.practica4equipo2.AreaTrianguloFragment"
+        android:label="AreaTrianguloFragment" />
+    <fragment
+        android:id="@+id/navegationFragment"
+        android:name="com.example.practica4equipo2.NavegationFragment"
+        android:label="fragment_navegation"
+        tools:layout="@layout/fragment_navegation">
+        <action
+            android:id="@+id/action_navegationFragment_to_areaCirculoFragment"
+            app:destination="@id/areaCirculoFragment" />
+        <action
+            android:id="@+id/action_navegationFragment_to_cuadradoFragment"
+            app:destination="@id/cuadradoFragment" />
+        <action
+            android:id="@+id/action_navegationFragment_to_areaTrianguloFragment"
+            app:destination="@id/areaTrianguloFragment" />
+        <action
+            android:id="@+id/action_navegationFragment_to_perimetro_cuadroFragment"
+            app:destination="@id/perimetro_cuadroFragment" />
+        <action
+            android:id="@+id/action_navegationFragment_to_perimetro_CirculoFragment"
+            app:destination="@id/perimetro_CirculoFragment" />
+        <action
+            android:id="@+id/action_navegationFragment_to_perimetro_TriangleFragment"
+            app:destination="@id/perimetro_TriangleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/perimetro_CirculoFragment"
+        android:name="com.example.practica4equipo2.Perimetro_CirculoFragment"
+        android:label="fragment_perimetro__circulo"
+        tools:layout="@layout/fragment_perimetro__circulo" />
+    <fragment
+        android:id="@+id/perimetro_TriangleFragment"
+        android:name="com.example.practica4equipo2.Perimetro_TriangleFragment"
+        android:label="fragment_perimetro__triangle"
+        tools:layout="@layout/fragment_perimetro__triangle" />
+    <fragment
+        android:id="@+id/perimetro_cuadroFragment"
+        android:name="com.example.practica4equipo2.Perimetro_cuadroFragment"
+        android:label="fragment_perimetro_cuadro"
+        tools:layout="@layout/fragment_perimetro_cuadro" />
+</navigation>
