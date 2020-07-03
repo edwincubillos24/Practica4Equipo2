@@ -43,4 +43,9 @@
     <string name="radio">Radio:</string>
     <string name="area_circulo_calcular">Calcular</string>
     <string name="area_circulo">Área:</string>
+    <string name="titulo_nav">FIGURAS GEOMETRICAS</string>
+    <string name="area_triangulo">Area del triangulo</string>
+    <string name="area_cuadrado">Area del Cuadrado</string>
+    <string name="area_hexagono">Area del Hexagono</string>
+    <string name="p_hexagono">Perimetro del hexagono</string>
 </resources>
