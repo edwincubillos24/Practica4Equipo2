@@ -75,22 +75,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_calcularpc" />
 
-    <Button
-        android:id="@+id/bt_nextpc"
-        android:layout_width="70dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="200dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="8dp"
-        android:background="@color/firebrick"
-        android:text="@string/nextpc"
-        android:textAllCaps="false"
-        android:textColor="@android:color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.793"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_resultadopc" />
-
     <EditText
         android:id="@+id/et_numladosc"
         android:layout_width="0dp"
