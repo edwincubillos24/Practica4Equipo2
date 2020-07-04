@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_perimetro__circulo.*
 
@@ -22,10 +23,14 @@ class Perimetro_CirculoFragment : Fragment() {
 
         bt_calcular.setOnClickListener {
             //Accion para calcular
-            val radio = et_radio.text.toString().toDouble()
-            val PI = 3.141516
-            val perimetro = 2 * PI * radio
-            tv_resultado.text = "El perimetro es: " + perimetro.toString()
+            if (et_radio.text.isNullOrBlank()) {
+                Toast.makeText(context, "Ingrese un valor", Toast.LENGTH_SHORT).show()
+            } else {
+                val radio = et_radio.text.toString().toDouble()
+                val PI = 3.141516
+                val perimetro = 2 * PI * radio
+                tv_resultado.text = "El perimetro es: " + perimetro.toString()
+            }
         }
 
 

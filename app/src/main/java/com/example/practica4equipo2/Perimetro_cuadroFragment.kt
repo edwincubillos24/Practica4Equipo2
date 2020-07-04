@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_perimetro_cuadro.*
 
@@ -25,12 +26,11 @@ class Perimetro_cuadroFragment : Fragment() {
 
 
         bt_calcularpc.setOnClickListener {
-            val numladopc = et_numladosc.text.toString()
-            val perimetrocuadro = (4 * numladopc.toDouble())
-
-            if (et_numladosc.text.isEmpty()) {
-                tv_resultadopc.text = "Complete el campo"
+            if (et_numladosc.text.isNullOrBlank()) {
+                Toast.makeText(context, "Ingrese un valor", Toast.LENGTH_SHORT).show()
             } else {
+                val numladopc = et_numladosc.text.toString()
+                val perimetrocuadro = (4 * numladopc.toDouble())
                 tv_resultadopc.text = "El perimetro del cuadrado es: $perimetrocuadro"
             }
 
