@@ -32,9 +32,6 @@ class AreaTrianguloFragment : Fragment() {
             }
 
         }
-        BT_siguiente.setOnClickListener {
-            //Aqui se pone el codigo para ir a la interfaz que usted quiera que siga
 
-        }
     }
 }

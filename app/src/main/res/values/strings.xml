@@ -51,13 +51,13 @@
     <!-- TODO: Remove or change this placeholder text -->
 
     <string name="perimetro_hexagono">Perimetro Hexagono</string>
-    <string name="calcular">Calcular Perimetro</string>
+    <string name="calcularphexa">Calcular Perimetro</string>
     <string name="hexagono">Hexagono</string>
     <string name="p_6porl">P = 6 *L</string>
     <string name="tv_resultado">Resultado</string>
     <string name="bt_calcular">Calcular</string>
     <string name="ingrese_lado">Ingrese lado</string>
-    <string name="resultado">Resultado</string>
+    <string name="resultado2">Resultado</string>
     <string name="Titulo_1">Area del hexagono</string>
     <string name="Titulo_2">Ingrese el valor del lado</string>
     <string name="Titulo_3">Calcular</string>

@@ -40,6 +40,12 @@ class NavegationFragment : Fragment() {
         bt_perimetrocuadrado.setOnClickListener {
             findNavController().navigate(R.id.action_navegationFragment_to_perimetro_cuadroFragment)
         }
+        bt_areahexagono.setOnClickListener {
+            findNavController().navigate(R.id.action_navegationFragment_to_hegaxonoFragment)
+        }
+        bt_perimetrohexagono.setOnClickListener {
+            findNavController().navigate(R.id.action_navegationFragment_to_fragment_perimetro_hexagono)
+        }
 
     }
 

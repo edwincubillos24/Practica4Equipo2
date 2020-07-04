@@ -41,6 +41,12 @@
         <action
             android:id="@+id/action_navegationFragment_to_perimetro_TriangleFragment"
             app:destination="@id/perimetro_TriangleFragment" />
+        <action
+            android:id="@+id/action_navegationFragment_to_fragment_perimetro_hexagono"
+            app:destination="@id/fragment_perimetro_hexagono" />
+        <action
+            android:id="@+id/action_navegationFragment_to_hegaxonoFragment"
+            app:destination="@id/hegaxonoFragment" />
     </fragment>
     <fragment
         android:id="@+id/perimetro_CirculoFragment"
@@ -57,4 +63,12 @@
         android:name="com.example.practica4equipo2.Perimetro_cuadroFragment"
         android:label="fragment_perimetro_cuadro"
         tools:layout="@layout/fragment_perimetro_cuadro" />
+    <fragment
+        android:id="@+id/fragment_perimetro_hexagono"
+        android:name="com.example.practica4equipo2.Fragment_perimetro_hexagono"
+        android:label="Fragment_perimetro_hexagono" />
+    <fragment
+        android:id="@+id/hegaxonoFragment"
+        android:name="com.example.practica4equipo2.HegaxonoFragment"
+        android:label="HegaxonoFragment" />
 </navigation>
