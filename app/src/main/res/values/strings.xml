@@ -62,5 +62,11 @@
     <string name="Titulo_2">Ingrese el valor del lado</string>
     <string name="Titulo_3">Calcular</string>
     <string name="Resultado">Resultado</string>
+    <string name="demostrativo">TODO</string>
+    <string name="ingrese_el_valor_del_lado">Ingrese el valor del lado</string>
+    <string name="resultado_ah">Resultado</string>
+    <string name="area_del_cuadrado">Area del Cuadrado</string>
+    <string name="lado">Lado</string>
+    <string name="resultado_ac">Resultado</string>
 
 </resources>

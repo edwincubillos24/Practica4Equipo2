@@ -29,7 +29,8 @@
             android:layout_width="match_parent"
             android:layout_height="221dp"
             android:layout_marginTop="50dp"
-            android:src="@drawable/circulo" />
+            android:src="@drawable/circulo"
+            tools:ignore="ContentDescription" />
 
         <LinearLayout
             android:layout_width="334dp"
@@ -65,7 +66,7 @@
                 android:ems="10"
                 android:inputType="numberDecimal"
                 android:textSize="17sp"
-                tools:ignore="Autofill" />
+                tools:ignore="Autofill,LabelFor" />
         </LinearLayout>
 
         <Button
@@ -112,7 +113,7 @@
                 android:ems="10"
                 android:inputType="numberDecimal"
                 android:textSize="17sp"
-                tools:ignore="Autofill" />
+                tools:ignore="Autofill,TextViewEdits" />
         </LinearLayout>
 
     </LinearLayout>
